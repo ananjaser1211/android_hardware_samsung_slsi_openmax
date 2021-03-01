@@ -162,6 +162,9 @@ typedef enum _EXYNOS_OMX_INDEXTYPE
 
 #define EXYNOS_INDEX_PARAM_VIDEO_AVC_ENABLE_TEMPORALSVC "OMX.SEC.index.AVC.enableTemporalSVC"
     OMX_IndexParamVideoAVCEnableTemporalSVC     = 0x7F000027,
+    
+#define EXYNOS_INDEX_PARAM_PREPARE_ADAPTIVE_PLAYBACK "OMX.google.android.index.prepareForAdaptivePlayback"
+    OMX_IndexParamPrepareAdaptivePlayback       = 0x7F000040,
 
     /* VC1 Codec */
 #ifndef USE_KHRONOS_OMX_1_2
